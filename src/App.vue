@@ -20,5 +20,6 @@
   <ul>
     <li v-for="task in tasks" :key="index">{{ task }}</li>
   </ul>
+  <a v-bind:href="link">Asadullohs</a>
 </template>
 
