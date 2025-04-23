@@ -5,7 +5,7 @@
         name: "John Doe",
         status:false,
         tasks:['task one', 'task two', 'task three'],
-        link:"/https"
+        link:"https://asadullohs.vercel.app/"
       }
     }
    }
