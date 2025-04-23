@@ -7,6 +7,13 @@
         tasks:['task one', 'task two', 'task three'],
         link:"https://asadullohs.vercel.app/"
       }
+    },
+    methods:{
+       toggleStatus(){
+         if(this.status !== true){
+            
+         }
+       }
     }
    }
 </script>
@@ -21,5 +28,7 @@
     <li v-for="task in tasks" :key="index">{{ task }}</li>
   </ul>
   <a v-bind:href="link">Asadullohs</a>
+
+  <button v-on:click="toggleStatus">Change status</button>
 </template>
 
